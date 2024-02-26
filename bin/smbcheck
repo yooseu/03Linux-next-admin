@@ -1,0 +1,5 @@
+#!/bin/bash
+
+testparm -sw | sed /homes/,$d | grep $1
+
+
